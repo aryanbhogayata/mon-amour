@@ -2,9 +2,30 @@
 <html lang="en">
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f5e9db"><meta name="robots" content="noindex,nofollow"><meta name="referrer" content="strict-origin-when-cross-origin"><title>For Kalpana — Mon Amour</title>
-<link rel="icon" href="assets/heart.svg" type="image/svg+xml"><link rel="stylesheet" href="style.css"><script src="config.js" defer></script><script src="script.js" defer></script><link rel="stylesheet" href="ultimate.css?v=2"><script src="ultimate.js" defer></script>
+<link rel="icon" href="assets/heart.svg" type="image/svg+xml"><link rel="stylesheet" href="style.css"><link rel="stylesheet" href="ultimate.css?v=2">
+<link rel="stylesheet" href="midnight.css"><script src="midnight.js" defer></script>
 </head>
 <body>
+<main id="midnight-gate" class="midnight-gate" aria-labelledby="gate-title">
+  <div class="gate-frame" aria-hidden="true"></div>
+  <img class="gate-botanical gate-left" src="assets/botanical.svg" alt=""><img class="gate-botanical gate-right" src="assets/botanical.svg" alt="">
+  <div class="gate-inner">
+    <div class="gate-kicker">K &nbsp;♡&nbsp; A &nbsp;·&nbsp; A LITTLE SECRET</div>
+    <div class="gate-seal" aria-hidden="true">♡</div>
+    <h1 id="gate-title">A little longer,<br><em>Mon Amour.</em></h1>
+    <p class="gate-intro">Something made with all my love is waiting for you.<br>Some surprises are worth the wait.</p>
+    <div class="gate-count" role="timer" aria-label="Time until your surprise unlocks">
+      <div><strong id="gate-days">--</strong><small>Days</small></div>
+      <div><strong id="gate-hours">--</strong><small>Hours</small></div>
+      <div><strong id="gate-minutes">--</strong><small>Minutes</small></div>
+      <div><strong id="gate-seconds">--</strong><small>Seconds</small></div>
+    </div>
+    <p class="gate-date">10 December 2026 &nbsp;·&nbsp; 12:00 AM IST</p>
+    <p id="gate-status" class="gate-status" role="status">Your surprise will open automatically at midnight. ♡</p>
+    <noscript><p>Please enable JavaScript to see the countdown and open your surprise.</p></noscript>
+  </div>
+</main>
+<template id="love-site">
 <a class="skip" href="#birthday">Skip to the surprise</a>
 <div class="grain" aria-hidden="true"></div><div id="confetti" aria-hidden="true"></div>
 <header class="topbar"><a class="wordmark" href="#opening">K <span>♥</span> A <small>·</small> 2026</a><span class="topnote">KEEPSAKE EDITION · MADE WITH LOVE</span><button id="music-button" class="music-button" aria-expanded="false" aria-controls="music-panel"><span aria-hidden="true">♫</span> <span id="music-label">Our song</span></button></header>
@@ -38,5 +59,6 @@
 <footer>MADE WITH LOVE, FOR KALPANA <span>♥</span> 10–11 DECEMBER 2026</footer>
 </div></main>
 <dialog id="photo-dialog" aria-label="Enlarged memory"><button id="close-photo" class="dialog-close" aria-label="Close photograph">×</button><img id="dialog-image" alt=""><p id="dialog-caption"></p></dialog>
-<noscript><style>#surprise[hidden],#letter-content[hidden]{display:block}.letter-fold{display:none}</style><p class="noscript">Enable JavaScript to enjoy the interactive memories and letter.</p></noscript>
+
+</template>
 </body></html>
